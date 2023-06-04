@@ -16,7 +16,7 @@ New button to open configuration
 ![new button](./token_image.png)
 Configuration to choose token images
 ![coonfig](./config.png)
-New button to change token image. L-click to change on next image, R-click open context menu with all images.
+New button to change token image. L-click to change to next image, R-click to open context menu with all images.
 ![list of tokens](./token_images.png)
 
 
