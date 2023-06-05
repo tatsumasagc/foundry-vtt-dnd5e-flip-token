@@ -36,7 +36,6 @@ export default class FlipFormApplication extends FormApplication {
 
     close() {
         super.close();
-        console.log(this.paths)
         this.object.object.update({
             "flags.flip-token.tokens.values": this.paths
         });
