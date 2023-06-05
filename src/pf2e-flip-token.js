@@ -8,6 +8,17 @@ const SOURCE_MENU_ITEM = (img, tooltip) => {
 	</button>`;
 };
 
+function updateToken(hud, idx, path, scale) {
+    if (!scale) {scale = 1;}
+    hud.object.document.update({
+        "flags.flip-token.tokens.idx": idx
+    });
+    console.log(path);
+    console.log(scale);
+    hud.object.document.update({"img": path, "scale": scale});
+    console.log(hud.object);
+}
+
 Hooks.on("renderTokenConfig", async (app, $html) => {
     let tbutton = $('<button type="submit" class="flip-config"><i class="far fa-repeat"></i>Flip Config</button>');
     tbutton.click(async (event) => {
@@ -33,15 +44,9 @@ Hooks.on("renderTokenHUD", (hud, hudHtml, hudData) => {
         if (values) {
             let idx = hud.object.document.flags?.['flip-token']?.['tokens']?.['idx'];
             if ((idx +1) < values.length) {
-                hud.object.document.update({
-                    "flags.flip-token.tokens.idx": (idx +1)
-                });
-                hud.object.document.update({"img": values[idx + 1].path});
+                updateToken(hud, (idx +1), values[idx + 1].path, values[idx + 1]?.scale ?? 1)
             } else {
-                hud.object.document.update({
-                    "flags.flip-token.tokens.idx": 0
-                });
-                hud.object.document.update({"img": values[0].path});
+                updateToken(hud, 0, values[0].path, values[0]?.scale ?? 1)
             }
         }
     });
@@ -57,10 +62,7 @@ Hooks.on("renderTokenHUD", (hud, hudHtml, hudData) => {
         icon.src = value.path;
         picture.append(icon);
         $(picture).find('img').click(async (event) => {
-            hud.object.document.update({
-                "flags.flip-token.tokens.idx": i
-            });
-            hud.object.document.update({"img": value.path});
+            updateToken(hud, i, value.path, value?.scale ?? 1)
         });
 
         tbutton.find(".flip-tokens").append(picture);

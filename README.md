@@ -16,6 +16,8 @@ New button to open configuration
 ![new button](./token_image.png)
 Configuration to choose token images
 ![coonfig](./config.png)
+To use scale feature need to unlock it in Token configuration
+![unlock](./unlock.png)
 New button to change token image. L-click to change to next image, R-click to open context menu with all images.
 ![list of tokens](./token_images.png)
 
@@ -42,7 +44,7 @@ Open Game License:
 [Minimum Foundry 10]: https://img.shields.io/badge/Minimum%20Foundry-10.291-informational?style=flat-square
 [Verified Foundry 10]: https://img.shields.io/badge/Verified%20Foundry-10.291-informational?style=flat-square
 
-[Version]: https://img.shields.io/badge/Version-0.0.1-yellow?style=flat-square
+[Version]: https://img.shields.io/badge/Version-0.0.2-yellow?style=flat-square
 [Version URL]: https://github.com/reyzor1991/foundry-vtt-pf2e-flip-token
 
 [GitHub Release Date]: https://img.shields.io/github/release-date/reyzor1991/foundry-vtt-pf2e-flip-token
