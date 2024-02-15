@@ -9,7 +9,6 @@
 ![the latest version zip](https://img.shields.io/github/downloads/reyzor1991/foundry-vtt-pf2e-flip-token/latest/pf2e-flip-token.zip)
 [![Forge Installs ULR]][Forge Installs Download]
 
-[Support me on Patreon](https://www.patreon.com/reyzor1991)
 
 ## Module to flip token image
 New button to open configuration
@@ -31,11 +30,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) and [CONTRIBUTORS.md](CONTRIBUTORS.md)
 
 ### Licenses
 
-This module uses trademarks and/or copyrights owned by Paizo Inc., used
-under [Paizo's Community Use Policy](https://paizo.com/community/communityuse). We are expressly prohibited from
-charging you to use or access this content. This module is not published, endorsed, or specifically approved by Paizo.
-For more information about Paizo Inc. and Paizo products, visit [paizo.com](paizo.com).
-
 Open Game License:
 
 * See [OpenGameLicense.md](OpenGameLicense.md)
@@ -45,7 +39,7 @@ Open Game License:
 [Verified Foundry 10]: https://img.shields.io/badge/Verified%20Foundry-10.291-informational?style=flat-square
 
 [Version]: https://img.shields.io/badge/Version-0.0.3-yellow?style=flat-square
-[Version URL]: https://github.com/reyzor1991/foundry-vtt-pf2e-flip-token
+[Version URL]: https://github.com/tatsumasagc/foundry-vtt-dnd5e-flip-token
 
 [GitHub Release Date]: https://img.shields.io/github/release-date/reyzor1991/foundry-vtt-pf2e-flip-token
 [GitHub Release Download]: https://img.shields.io/github/downloads/reyzor1991/foundry-vtt-pf2e-flip-token/total
