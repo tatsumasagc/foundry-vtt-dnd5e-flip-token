@@ -1,29 +1,29 @@
 {
-  "id": "pf2e-flip-token",
-  "title": "PF2e Flip Token",
+  "id": "dnd5e-flip-token",
+  "title": "DnD5e Flip Token",
   "description": "Flip image of token",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "authors": [
     {
-      "name": "reyzor1991",
-      "url": "https://github.com/reyzor1991",
-      "discord": "Reyzor1991#6258"
+      "name": "tatsumasagc",
+      "url": "https://github.com/tatsumasagc",
+      "discord": "Tatsu_Gamer"
     }
   ],
   "languages": [],
   "esmodules": [
-    "pf2e-flip-token.js"
+    "dnd5e-flip-token.js"
   ],
   "styles": [
-    "pf2e-flip-token.css"
+    "dnd5e-flip-token.css"
   ],
-  "manifest": "https://github.com/reyzor1991/foundry-vtt-pf2e-flip-token/releases/latest/download/module.json",
-  "download": "https://github.com/reyzor1991/foundry-vtt-pf2e-flip-token/releases/latest/download/pf2e-flip-token.zip",
+  "manifest": "https://github.com/tatsumasagc/foundry-vtt-dnd5e-flip-token/releases/latest/download/module.json",
+  "download": "https://github.com/tatsumasagc/foundry-vtt-dnd5e-flip-token/releases/latest/download/pf2e-flip-token.zip",
   "url": "https://github.com/reyzor1991/foundry-vtt-pf2e-flip-token",
-  "license": "https://github.com/reyzor1991/foundry-vtt-pf2e-flip-token/blob/main/LICENSE",
-  "readme": "https://github.com/reyzor1991/foundry-vtt-pf2e-flip-token/blob/main/README.md",
-  "bugs": "https://github.com/reyzor1991/foundry-vtt-pf2e-flip-token/issues",
-  "changelog": "https://github.com/reyzor1991/foundry-vtt-pf2e-flip-token/blob/main/CHANGELOG.md",
+  "license": "https://github.com/tatsumasagc/foundry-vtt-dnd5e-flip-token/blob/main/LICENSE",
+  "readme": "https://github.com/tatsumasagc/foundry-vtt-dnd5e-flip-token/blob/main/README.md",
+  "bugs": "https://github.com/tatsumasagc/foundry-vtt-dnd5e-flip-token/issues",
+  "changelog": "https://github.com/tatsumasagc/foundry-vtt-dnd5e-flip-token/blob/main/CHANGELOG.md",
   "compatibility": {
     "minimum": "10",
     "verified": "11"
@@ -31,12 +31,12 @@
   "relationships": {
     "systems": [
       {
-        "id": "pf2e",
+        "id": "dnd5e",
         "type": "system",
-        "manifest": "https://github.com/foundryvtt/pf2e/releases/download/latest/system.json",
+        "manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-3.0.2/system.json",
         "compatibility": {
-          "minimum": "4.12.6",
-          "verified": "5.0.0-beta1"
+          "minimum": "3.0.2",
+          "verified": "3.0.2"
         }
       }
     ]
